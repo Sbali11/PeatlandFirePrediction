@@ -12,6 +12,14 @@ Please refer to the paper for the reasons of why these models are selected.
 ## Repository Structure
 The directory is structured as follows-
 
+### preprocessing:
+#### dataloaders
+Loader for each dataset returning an array corresponding to the dataset.
+#### interpolate:
+Code used to interpolate data to one standard spatial resolution.
+#### load_data:
+Load all data from the datasets using the various dataloaders.
+
 ### dataloader:
 #### peat_loader: 
 Loader used for linear, unet, unet_lstm models.
