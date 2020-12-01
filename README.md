@@ -2,8 +2,8 @@
 # Peat Fire Prediction Models
 
 The following models are implemented in this directory:
-1. Linear Regression
-2. UNET
+1. Logistic Regression
+2. U-NET
 3. UNET_LSTM
 4. GNN(PeatNet)
 5. Transformer-Based Encoder(PT-Net)
