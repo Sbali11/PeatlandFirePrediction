@@ -5,8 +5,8 @@ The following models are implemented in this directory:
 1. Linear Regression
 2. UNET
 3. UNET_LSTM
-4. GNN
-
+4. GNN(PeatNet)
+5. Transformer-Based Encoder(PT-Net)
 Please refer to the paper for the reasons of why these models are selected. 
 
 # PeatSet Dataset Details
