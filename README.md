@@ -9,6 +9,9 @@ The following models are implemented in this directory:
 
 Please refer to the paper for the reasons of why these models are selected. 
 
+# PeatSet Dataset Details
+For details about the individual features in the dataset we curated please look in the [wiki](https://github.com/Sbali11/PeatlandFirePrediction/wiki).
+
 ## Repository Structure
 The directory is structured as follows-
 
