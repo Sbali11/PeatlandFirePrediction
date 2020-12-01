@@ -67,7 +67,12 @@ train file for gnn based architecture
 
 
 Please follow the following steps to run the code:
-> 1. Activate conda environment
+> 1. Install required packages:
+    - pytorch
+    - pytorch geometric
+    - skikit
+    - matplotlib 
+    - simplejson
 > 2. `python [train.py/train_gnn.py] --model <name of model> --conf f --dmodel <hyperparameter for num features> --lr <learning rate> --in_days <num of in days> --out_days <num of out days> --out <feature to output: CO2/CWFIS> `
 
 You can also pass in the hyperparameters in the form of a yaml file, in which case use --conf y --output_dir <name of directory with conf.yaml file>. This is useful in cases where you want to run a grid search. 
