@@ -1,3 +1,5 @@
+# Single Block architecture is similar to https://github.com/esowc/wildfire-forecasting
+
 import torch
 import torch.nn as nn
 
