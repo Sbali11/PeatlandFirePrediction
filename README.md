@@ -53,16 +53,20 @@ This is the pytorch geometric dataset for graph based models. All the functions 
     provides different functions for adding different kinds of edges. Currently, only uses peat edges. Greater number of peat edges will require higher compute facilities
 
 ### model: 
-contains all the relevant models. 
+This folder contains all the relevant models with the exxeption of transformers(due to the different nature of the model). For the Transformer model, please refer to Transformers.ipynb. It must be noted that we still use the same dataset for both the models. 
+
 #### linear: 
 Regular Linear Regression based model. This model regards both spatial information in the batch dimension and each feature consists of both the temporal and spatial values. 
+
 #### ConvBlock: 
 This is a helper class that provides the downsampling and the upsampling blocks for the unet architectures
+
 #### unet : 
-A regular UNet Architecture consists of multiple downsampling blocks followed by upsampling blocks. 
+A regular UNet Architecture consists of multiple downsampling blocks followed by upsampling blocks. Here each feature is considered as a different channel. 
 
 #### unet_lstm: 
-unet augmented with a LSTM layer at the end
+unet augmented with a LSTM layer at the end to allow for temporal information to be processed differently.
+
 #### unet_gnn
 model that first produces a gnn encoding and then produces the output
 
