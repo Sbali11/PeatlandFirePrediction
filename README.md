@@ -9,8 +9,13 @@ The following models are implemented in this directory:
 5. Transformer-Based Encoder(PT-Net)
 Please refer to the paper for the reasons of why these models are selected. 
 
+### Hyperparameters Used:
+
+The final model hyperparameters used are mentioned as the default values in the files. 
+
 # PeatSet Dataset Details
 For details about the individual features in the dataset we curated please look in the [wiki](https://github.com/Sbali11/PeatlandFirePrediction/wiki).
+
 
 ## Repository Structure
 The directory is structured as follows-
@@ -102,6 +107,3 @@ To add additional models, follow the following steps:
 3. add code for the initialization in train.py/train_gnn.py
 
 
-### Hyperparameters Used:
-
-The final model hyperparameters used are mentioned as the default values in the files. 
