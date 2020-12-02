@@ -342,7 +342,7 @@ def get_arguments():
     parser.add_argument('--out_days', type=int, default=1)
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--dmodel', type=int, default=15)
-    parser.add_argument('--lr', type=float, default=0.01)
+    parser.add_argument('--lr', type=float, default=0.0001)
     parser.add_argument('--output_dir', type=str, default="./",
                     help='Where to save stuff')
     parser.add_argument('--snapshot_dir', type=str, default="./",
