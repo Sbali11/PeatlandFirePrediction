@@ -96,3 +96,8 @@ To add additional models, follow the following steps:
 1. add file in model directory
 2. name the class as Model
 3. add code for the initialization in train.py/train_gnn.py
+
+
+### Hyperparameters Used:
+
+The final model hyperparameters used are mentioned as the default values in the files. 
